@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: #fff;
+      width: 90%;
+      max-width: 700px;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    }
+
+    .profile-img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    p {
+      line-height: 1.7;
+      color: #555;
+      font-size: 17px;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      margin-top: 25px;
+      color: #333;
+      font-size: 22px;
+      border-left: 4px solid #4a72ff;
+      padding-left: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    ul li {
+      background: #f0f3ff;
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 10px;
+      color: #333;
+      font-size: 16px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;
+    }
+    table td {
+  color: #333 !important;
+  font-weight: 600;
+}
+
+
+    table th {
+      background: #4a72ff;
+      color: #fff;
+    }
+
+    table tr:nth-child(even){
+      background:#f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <img src="https://via.placeholder.com/150" alt="profile" class="profile-img" />
+
+    <h1>About Me</h1>
+
+    <p>
+      Hello! My name is Miral AlSharief I'm a junior CS student at IAU  and I'm passionate about web development and loves learning new technologies.
+      I enjoy building simple web pages and improving my skills every day.
+    </p>
+
+    <p>
+      I'm constantly working on developing my knowledge in HTML, CSS, and JavaScript, and I love experimenting with different designs.
+    </p>
+
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>C++</li>
+      <li>JavaScript</li>
+      <li>Responsive Design</li>
+    </ul>
+
+    <h2>Quick Info</h2>
+    <table>
+      <tr>
+        <th>Age</th>
+        <th>City</th>
+        <th>Hobby</th>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>Dhahran</td>
+        <td>Coding</td>
+      <
+    </table>
+
+  </div>
+</body>
+</html>
